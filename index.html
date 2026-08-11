@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="fr-CA">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Guide d'accueil · Psy etc.</title>
+<meta name="description" content="Le guide d'accueil des cliniques Psy etc., à Montréal et à Laval.">
+<meta name="robots" content="noindex">
+<style>
+  :root{
+    --ivoire:#FDFBF7; --corps:#2C2622; --gris:#726A60;
+    --teal:#428687; --orange:#E8943A; --trait:#EFE9E0;
+  }
+  *{box-sizing:border-box}
+  body{
+    margin:0; padding:2.5rem 1.25rem 4rem;
+    background:var(--ivoire); color:var(--corps);
+    font:400 17px/1.65 -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  main{max-width:34rem; margin:0 auto}
+  .kicker{
+    font-size:.72rem; letter-spacing:.18em; text-transform:uppercase;
+    color:var(--gris); margin:0 0 .9rem;
+  }
+  h1{font-size:1.95rem; line-height:1.2; margin:0 0 .5rem; letter-spacing:-.01em}
+  .filet{width:54px; height:3px; background:var(--orange); border-radius:2px; margin:1.1rem 0 1.6rem}
+  p{margin:0 0 1.1rem}
+  .sobre{color:var(--gris); font-size:.95rem}
+  .choix{display:grid; gap:.9rem; margin:2rem 0 2.5rem}
+  a.carte{
+    display:flex; align-items:center; justify-content:space-between; gap:1rem;
+    padding:1.15rem 1.25rem; border:1px solid var(--trait); border-radius:14px;
+    background:#fff; text-decoration:none; color:inherit;
+    transition:border-color .15s ease, transform .15s ease;
+  }
+  a.carte:hover,a.carte:focus-visible{border-color:var(--teal); transform:translateY(-1px)}
+  a.carte:focus-visible{outline:2px solid var(--teal); outline-offset:3px}
+  .carte strong{display:block; font-size:1.08rem}
+  .carte span{display:block; color:var(--gris); font-size:.88rem; margin-top:.15rem}
+  .fleche{color:var(--teal); font-size:1.3rem; line-height:1}
+  footer{
+    border-top:1px solid var(--trait); padding-top:1.4rem; margin-top:2.5rem;
+    color:var(--gris); font-size:.87rem;
+  }
+  footer a{color:var(--teal)}
+  @media (prefers-color-scheme:dark){
+    :root{--ivoire:#191614; --corps:#F0EAE2; --gris:#A9A099; --trait:#332D28}
+    a.carte{background:#221E1B}
+  }
+</style>
+</head>
+<body>
+<main>
+  <p class="kicker">Psy etc. · Montréal &amp; Laval</p>
+  <h1>Votre guide d'accueil</h1>
+  <div class="filet"></div>
+
+  <p>Quelques pages pour vous accompagner pendant l'attente. De la lecture, deux exercices
+  de respiration et d'ancrage, et ce à quoi ressemble une première rencontre.</p>
+  <p class="sobre">Il n'y a rien à faire de particulier avec ces pages. Les laisser vous
+  détendre suffit amplement.</p>
+
+  <div class="choix">
+    <a class="carte" href="guide-accueil-montreal.pdf">
+      <span><strong>Clinique de Montréal</strong>
+      <span>422, rue Saint-François-Xavier · PDF, 2 Mo</span></span>
+      <span class="fleche" aria-hidden="true">&rarr;</span>
+    </a>
+    <a class="carte" href="guide-accueil-laval.pdf">
+      <span><strong>Clinique de Laval</strong>
+      <span>94, boulevard Sainte-Rose · PDF, 2 Mo</span></span>
+      <span class="fleche" aria-hidden="true">&rarr;</span>
+    </a>
+  </div>
+
+  <footer>
+    <p>Ce guide a une visée éducative et ne remplace pas un suivi personnalisé.</p>
+    <p>Montréal <a href="tel:+14383754869">438 375-4869</a> ·
+       Laval <a href="tel:+14509372225">450 937-2225</a> ·
+       <a href="mailto:info@psyetc.com">info@psyetc.com</a></p>
+    <p>En cas de détresse au Québec, Info-Social <a href="tel:811">811</a> et
+       <a href="tel:988">988</a>, jour et nuit.</p>
+  </footer>
+</main>
+</body>
+</html>
