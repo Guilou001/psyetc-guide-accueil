@@ -1,6 +1,6 @@
-# Guide d'accueil Psy etc.
+# Guide d'attente Psy etc.
 
-Hébergement de test du guide d'accueil des cliniques Psy etc. (Montréal et Laval),
+Hébergement de test du guide d'attente des cliniques Psy etc. (Montréal et Laval),
 celui vers lequel pointe le QR code de l'affiche de salle d'attente.
 
 Les fichiers sont générés par `scripts/build_cartable_v3.py --web` dans le projet
